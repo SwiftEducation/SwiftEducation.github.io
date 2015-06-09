@@ -414,6 +414,9 @@ ul.links > li.github      { background-image: url('/assets/images/octocat.png');
 
   .layout-2a, .layout-2b, .layout-2c, .layout-2d, .layout-3a {padding-left: 0 !important; padding-right: 0 !important; margin-left: 0 !important; margin-right: 0 !important;}
 
+  nav.layout-tabs { display: none;}
+  .header h1 { font-size: 2em; }
+
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
