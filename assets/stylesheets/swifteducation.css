@@ -102,7 +102,11 @@ p { margin-top: 0; margin-bottom: 1.5em; word-spacing:-1px; }
 p.intro { color: #888; font-size: 1.143em; line-height: 1.562em; font-weight: normal; }
 h1 + p.intro { margin-top:1.2em; }
 .title-intro {text-align:center; max-width: 800px; margin: 0 auto; }
-.title-intro h1 {font-family: "HelveticaNeue-Light";}
+.title-intro h1 { font-family: "HelveticaNeue-Light"; }
+
+.teaching_swift .title-intro h1 { margin-bottom: 0px;}
+.teaching_swift .title-intro h2 { color: #999; font-size: 0.8em; margin: 0.1em 0 0.7em 0;}
+
 
 ul { list-style: none outside; padding:0; }
 ol { margin-bottom: 18px; list-style: decimal; margin-left: 2.2em; }
@@ -130,6 +134,7 @@ ul.links > li.tool        { background-image: url('/assets/images/tool.svg'); }
 ul.links > li.video       { background-image: url('/assets/images/video.svg'); }
 ul.links > li.video-play  { background-image: url('/assets/images/video-play.svg'); }
 ul.links > li.github      { background-image: url('/assets/images/octocat.png'); }
+ul.links > li.itunesu      { background-image: url('/assets/images/itunesu.svg'); }
 
 /* shared layout styles */
 .padding-top-0       { padding-top:0 !important; }
