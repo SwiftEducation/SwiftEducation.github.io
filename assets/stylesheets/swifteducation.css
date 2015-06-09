@@ -107,6 +107,10 @@ h1 + p.intro { margin-top:1.2em; }
 .teaching_swift .title-intro h1 { margin-bottom: 0px;}
 .teaching_swift .title-intro h2 { color: #999; font-size: 0.8em; margin: 0.1em 0 0.7em 0;}
 
+h4 span.lesson_count { font-weight: normal; color: #999;}
+.level h3 { font-weight: normal; font-size: 1.2em;}
+.level h4 { font-weight: normal; font-size: 1em;}
+
 
 ul { list-style: none outside; padding:0; }
 ol { margin-bottom: 18px; list-style: decimal; margin-left: 2.2em; }
