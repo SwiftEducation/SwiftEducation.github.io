@@ -128,6 +128,7 @@ ul.links > li.sample-code { background-image: url('/assets/images/sample-code.sv
 ul.links > li.tool        { background-image: url('/assets/images/tool.svg'); }
 ul.links > li.video       { background-image: url('/assets/images/video.svg'); }
 ul.links > li.video-play  { background-image: url('/assets/images/video-play.svg'); }
+ul.links > li.github      { background-image: url('/assets/images/octocat.png'); }
 
 /* shared layout styles */
 .padding-top-0       { padding-top:0 !important; }
