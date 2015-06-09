@@ -101,7 +101,16 @@ h4 { font-size: 14px; line-height: 1.5em; font-weight: bold; margin-bottom: 0.5e
 p { margin-top: 0; margin-bottom: 1.5em; word-spacing:-1px; }
 p.intro { color: #888; font-size: 1.143em; line-height: 1.562em; font-weight: normal; }
 h1 + p.intro { margin-top:1.2em; }
-.title-intro {text-align:center; max-width: 800px; margin: 0 auto;}
+.title-intro {text-align:center; max-width: 800px; margin: 0 auto; }
+.title-intro h1 { font-family: "HelveticaNeue-Light"; }
+
+.teaching_swift .title-intro h1 { margin-bottom: 0px;}
+.teaching_swift .title-intro h2 { color: #999; font-size: 0.8em; margin: 0.1em 0 0.7em 0;}
+
+h4 span.lesson_count { font-weight: normal; color: #999;}
+.level h3 { font-weight: normal; font-size: 1.2em;}
+.level h4 { font-weight: normal; font-size: 1em;}
+
 
 ul { list-style: none outside; padding:0; }
 ol { margin-bottom: 18px; list-style: decimal; margin-left: 2.2em; }
@@ -129,6 +138,7 @@ ul.links > li.tool        { background-image: url('/assets/images/tool.svg'); }
 ul.links > li.video       { background-image: url('/assets/images/video.svg'); }
 ul.links > li.video-play  { background-image: url('/assets/images/video-play.svg'); }
 ul.links > li.github      { background-image: url('/assets/images/octocat.png'); }
+ul.links > li.itunesu      { background-image: url('/assets/images/itunesu.svg'); }
 
 /* shared layout styles */
 .padding-top-0       { padding-top:0 !important; }
@@ -339,7 +349,7 @@ ul.links > li.github      { background-image: url('/assets/images/octocat.png');
 
 .hero-icon {display:block; width: 96px; height: 96px; background-image: url('/assets/images/swift_icon.png'); background-repeat: no-repeat; background-position: center center; background-size: 96px 96px; margin: 0 auto;}
 
-.title { margin-top: 40px; font-size: 3em; font-family: "HelveticaNeue-Ultralight", "HelveticaNeue-Lightight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; letter-spacing: -0.02em;}
+.title { margin-top: 40px; font-size: 3em; font-family: "HelveticaNeue-Ultralight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; letter-spacing: -0.02em;}
 
 /* Article separation */
 .blog-articles { padding: 0 40px; }
