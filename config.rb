@@ -47,9 +47,9 @@
 #   end
 # end
 
-set :css_dir, 'stylesheets'
+set :css_dir, 'asets/stylesheets'
 
-set :js_dir, 'javascripts'
+set :js_dir, 'assets/javascript'
 
 set :images_dir, 'images'
 
