@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-  <title>Gesturizer - Teaching App Development with Swift - Swift Education</title>
+  <title>RSSReader - Teaching App Development with Swift - Swift Education</title>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=-100%" />
   <link rel="icon" href="/assets/images/favicon.png" />
@@ -37,9 +37,9 @@
     </nav>
 
     <section class="title-intro padding-top-40 padding-bottom-40">
-      <h1>Gesturizer</h1>
-      <h2>Level 3, Nine Lessons</h2>
-      <p class="intro">Create an app that responds to gestures such as taps, pinches, rotations, and swipes. Employ UIGestureRecognizer subclasses that standardize the most common interface gestures. Enhance interface changes with UIView animations as a vehicle for teaching Swift closure expressions.</p>
+      <h1>RSSReader</h1>
+      <h2>Level 4, Eight Lessons</h2>
+      <p class="intro">Discover how iOS apps obtain and use network data such as RSS feeds containing media metadata. Demonstrate how a tab bar controller helps manage an interface for multiple view controllers. Teach students about the importance of separating data from implementation, extracting structured data, and invoking asynchronous methods.</p>
     </section>
 
     <section class="layout-2b grid2col divider-top padding-top-40 padding-bottom-20 divider-bottom">
@@ -49,62 +49,98 @@
         <p>Familiarize yourself with the project, and demonstrate the app students will build.</p>
         <ul class="links small">
           <li class="sample-code">
-            <h4><a href="https://github.com/SwiftEducation/Gesturizer/archive/end.zip">Gesturizer End Xcode Project</a></h4>
+            <h4><a href="https://github.com/SwiftEducation/RSSReader/archive/end.zip">RSSReader End Xcode Project</a></h4>
           </li>
         </ul>
       </section>
 
       <section>
         <h2>Lesson 1</h2>
-        <p>Introduce the <code>UIGestureRecognizer</code> family, and teach students how to detect single tap gestures.</p>
+        <p>Analyze the app startup process with an empty Xcode project.</p>
         <ul class="links small">
           <li class="document">
-            <h4><a href="/assets/pdfs/Gesturizer%20Lesson01.pdf">Lesson Plan</a></h4>
+            <h4><a href="/assets/pdfs/RSSReader%20Lesson01.pdf">Lesson Plan</a></h4>
           </li>
           <li class="sample-code">
-            <h4><a href="https://github.com/SwiftEducation/Gesturizer/archive/lesson01.zip">Gesturizer Lesson 1 Xcode Project</a></h4>
+            <h4><a href="https://github.com/SwiftEducation/RSSReader/archive/lesson01.zip">RSSReader Lesson 1 Xcode Project</a></h4>
           </li>
+<!--          <li class="presentation">
+            <h4><a href="https://raw.github.com/SwiftEducation/presentations/master/AppLaunch.key">App Launch Presentation</a></h4>
+          </li>
+-->
         </ul>
       </section>
       
       <section>
         <h2>Lesson 2</h2>
-        <p>Configure another <code>UITapGestureRecognizer</code> to detect a double tap.</p>
+        <p>Demonstrate how to add a storyboard and tab bar controller, and teach students the purpose and behavior of the tab bar controller.</p>
         <ul class="links small">
           <li class="document">
-            <h4><a href="/assets/pdfs/Gesturizer%20Lesson02.pdf">Lesson Plan</a></h4>
+            <h4><a href="/assets/pdfs/RSSReader%20Lesson02.pdf">Lesson Plan</a></h4>
           </li>
           <li class="sample-code">
-            <h4><a href="https://github.com/SwiftEducation/Gesturizer/archive/lesson02.zip">Gesturizer Lesson 2 Xcode Project</a></h4>
+            <h4><a href="https://github.com/SwiftEducation/RSSReader/archive/lesson02.zip">RSSReader Lesson 2 Xcode Project</a></h4>
           </li>
         </ul>
       </section>
 
       <section>
         <h2>Lesson 3</h2>
-        <p>Facilitate a refactoring of common code, and refactor a fade-in animation effect to illustrate closure expressions.</p>
+        <p>Customize four view controllers to illustrate the behavior of a tab bar controller.</p>
         <ul class="links small">
           <li class="document">
-            <h4><a href="/assets/pdfs/Gesturizer%20Lesson03.pdf">Lesson Plan</a></h4>
+            <h4><a href="/assets/pdfs/RSSReader%20Lesson03.pdf">Lesson Plan</a></h4>
           </li>
           <li class="sample-code">
-            <h4><a href="https://github.com/SwiftEducation/Gesturizer/archive/lesson03.zip">Gesturizer Lesson 3 Xcode Project</a></h4>
+            <h4><a href="https://github.com/SwiftEducation/RSSReader/archive/lesson03.zip">RSSReader Lesson 3 Xcode Project</a></h4>
           </li>
           <li class="presentation">
-            <h4><a href="https://raw.github.com/SwiftEducation/presentations/master/Closures.key">Closures Presentation</a></h4>
+            <h4><a href="https://raw.github.com/SwiftEducation/presentations/master/TabBarControllers.key">Tab Bar Controllers Presentation</a></h4>
           </li>
         </ul>
       </section>
 
       <section>
         <h2>Lesson 4</h2>
-        <p>Continue exploring interface animation with a more complex closure expression.</p>
+        <p>Teach students how to bind four distinct view controllers to a single implementation.</p>
         <ul class="links small">
           <li class="document">
-            <h4><a href="/assets/pdfs/Gesturizer%20Lesson04.pdf">Lesson Plan</a></h4>
+            <h4><a href="/assets/pdfs/RSSReader%20Lesson04.pdf">Lesson Plan</a></h4>
           </li>
           <li class="sample-code">
-            <h4><a href="https://github.com/SwiftEducation/Gesturizer/archive/lesson04.zip">Gesturizer Lesson 4 Xcode Project</a></h4>
+            <h4><a href="https://github.com/SwiftEducation/RSSReader/archive/lesson04.zip">RSSReader Lesson 4 Xcode Project</a></h4>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Lesson 5</h2>
+        <p>Encourage students to recognize the separation of data and behavior, and illustrate the relationship between user defined runtime attributes and controller properties.</p>
+        <ul class="links small">
+          <li class="document">
+            <h4><a href="/assets/pdfs/RSSReader%20Lesson05.pdf">Lesson Plan</a></h4>
+          </li>
+          <li class="sample-code">
+            <h4><a href="https://github.com/SwiftEducation/RSSReader/archive/lesson05.zip">RSSReader Lesson 5 Xcode Project</a></h4>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Lesson 6</h2>
+        <p>Introduce RSS feeds as a data source, and demonstrate retrieving data with asynchronous methods and closures.</p>
+        <ul class="links small">
+          <li class="document">
+            <h4><a href="/assets/pdfs/RSSReader%20Lesson06.pdf">Lesson Plan</a></h4>
+          </li>
+          <li class="sample-code">
+            <h4><a href="https://github.com/SwiftEducation/RSSReader/archive/lesson06.zip">RSSReader Lesson 6 Xcode Project</a></h4>
+          </li>
+          <li class="download">
+            <h4><a href="https://github.com/SwiftEducation/teaching-app-dev-swift/raw/master/Level%204/RSSReader/sampledata.rss.txt">Sample RSS Feed Data</a></h4>
+          </li>
+          <li class="presentation">
+            <h4><a href="https://raw.github.com/SwiftEducation/presentations/master/AsynchronousMethods.key">Asynchronous Methods Presentation</a></h4>
           </li>
           <li class="presentation">
             <h4><a href="https://raw.github.com/SwiftEducation/presentations/master/Closures.key">Closures Presentation</a></h4>
@@ -113,69 +149,39 @@
       </section>
 
       <section>
-        <h2>Lesson 5</h2>
-        <p>Demonstrate the interplay between multiple <code>UITapGestureRecognizers</code>, and teach students how to customize <code>UITapGestureRecognizer</code> behavior.</p>
-        <ul class="links small">
-          <li class="document">
-            <h4><a href="/assets/pdfs/Gesturizer%20Lesson05.pdf">Lesson Plan</a></h4>
-          </li>
-          <li class="sample-code">
-            <h4><a href="https://github.com/SwiftEducation/Gesturizer/archive/lesson05.zip">Gesturizer Lesson 5 Xcode Project</a></h4>
-          </li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Lesson 6</h2>
-        <p>Introduce multi-touch gestures with a <code>UIPinchGestureRecognizer</code> and explore <code>UIGestureRecognizer</code> state, represented as an enumeration.</p>
-        <ul class="links small">
-          <li class="document">
-            <h4><a href="/assets/pdfs/Gesturizer%20Lesson06.pdf">Lesson Plan</a></h4>
-          </li>
-          <li class="sample-code">
-            <h4><a href="https://github.com/SwiftEducation/Gesturizer/archive/lesson06.zip">Gesturizer Lesson 6 Xcode Project</a></h4>
-          </li>
-          <li class="presentation">
-            <h4><a href="https://raw.github.com/SwiftEducation/presentations/master/Enumerations.key">Enumerations Presentation</a></h4>
-          </li>
-        </ul>
-      </section>
-
-      <section>
         <h2>Lesson 7</h2>
-        <p>Demonstrate a second multi-touch gesture with a <code>UIRotationGestureRecognizer</code>.</p>
+        <p>Facilitate students in analyzing the separation of data and implementation, and use user defined runtime attributes to bind different URLs to controller instances.</p>
         <ul class="links small">
           <li class="document">
-            <h4><a href="/assets/pdfs/Gesturizer%20Lesson07.pdf">Lesson Plan</a></h4>
+            <h4><a href="/assets/pdfs/RSSReader%20Lesson07.pdf">Lesson Plan</a></h4>
           </li>
           <li class="sample-code">
-            <h4><a href="https://github.com/SwiftEducation/Gesturizer/archive/lesson07.zip">Gesturizer Lesson 7 Xcode Project</a></h4>
+            <h4><a href="https://github.com/SwiftEducation/RSSReader/archive/lesson07.zip">RSSReader Lesson 7 Xcode Project</a></h4>
+          </li>
+          <li class="download">
+            <h4><a href="https://github.com/SwiftEducation/teaching-app-dev-swift/raw/master/Level%204/RSSReader/feedurls.txt">RSS Feed URLs</a></h4>
           </li>
         </ul>
       </section>
 
       <section>
         <h2>Lesson 8</h2>
-        <p>Facilitate students in detecting a swipe gesture, and teach students how to configure a <code>UISwipeGestureRecognizer</code>.</p>
+        <p>Facilitate students in practicing retrieving RSS data, and recognizing asynchronous methods and closures.</p>
         <ul class="links small">
           <li class="document">
-            <h4><a href="/assets/pdfs/Gesturizer%20Lesson08.pdf">Lesson Plan</a></h4>
+            <h4><a href="/assets/pdfs/RSSReader%20Lesson08.pdf">Lesson Plan</a></h4>
           </li>
           <li class="sample-code">
-            <h4><a href="https://github.com/SwiftEducation/Gesturizer/archive/lesson08.zip">Gesturizer Lesson 8 Xcode Project</a></h4>
+            <h4><a href="https://github.com/SwiftEducation/RSSReader/archive/lesson08.zip">RSSReader Lesson 8 Xcode Project</a></h4>
           </li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Lesson 9</h2>
-        <p>Explore using <code>UIResponder</code> methods to handle motion events such as shaking.</p>
-        <ul class="links small">
-          <li class="document">
-            <h4><a href="/assets/pdfs/Gesturizer%20Lesson09.pdf">Lesson Plan</a></h4>
+          <li class="download">
+            <h4><a href="https://github.com/SwiftEducation/teaching-app-dev-swift/raw/master/Level%204/RSSReader/sampledata.rss.txt">Sample RSS Feed Data</a></h4>
           </li>
-          <li class="sample-code">
-            <h4><a href="https://github.com/SwiftEducation/Gesturizer/archive/lesson09.zip">Gesturizer Lesson 9 Xcode Project</a></h4>
+          <li class="presentation">
+            <h4><a href="https://raw.github.com/SwiftEducation/presentations/master/AsynchronousMethods.key">Asynchronous Methods Presentation</a></h4>
+          </li>
+          <li class="presentation">
+            <h4><a href="https://raw.github.com/SwiftEducation/presentations/master/Closures.key">Closures Presentation</a></h4>
           </li>
         </ul>
       </section>

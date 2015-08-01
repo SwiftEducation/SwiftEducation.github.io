@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-  <title>UnitConverter - Teaching App Development with Swift - Swift Education</title>
+  <title>Journal - Teaching App Development with Swift - Swift Education</title>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=-100%" />
   <link rel="icon" href="/assets/images/favicon.png" />
@@ -37,9 +37,9 @@
     </nav>
 
     <section class="title-intro padding-top-40 padding-bottom-40">
-      <h1>UnitConverter</h1>
-      <h2>Level 2, Eleven Lessons</h2>
-      <p class="intro">Teach students about delegates, delegation and protocols through the creation of a programming classic. Facilitate a deeper understanding of Model-View-Controller, and demonstrate how to persist data with NSUserDefaults.</p>
+      <h1>Journal</h1>
+      <h2>Level 4, Eleven Lessons</h2>
+      <p class="intro">Use a collection of journal entries as a vehicle for teaching students how table view controllers work. Emphasize delegates and protocols, integrate multiple view controllers and segues, and lead students in discovering increasingly complex controller interactions.</p>
     </section>
 
     <section class="layout-2b grid2col divider-top padding-top-40 padding-bottom-20 divider-bottom">
@@ -49,36 +49,56 @@
         <p>Familiarize yourself with the project, and demonstrate the app students will build.</p>
         <ul class="links small">
           <li class="sample-code">
-            <h4><a href="https://github.com/SwiftEducation/UnitConverter/archive/end.zip">UnitConverter End Xcode Project</a></h4>
+            <h4><a href="https://github.com/SwiftEducation/Journal/archive/end.zip">Journal End Xcode Project</a></h4>
           </li>
         </ul>
       </section>
 
       <section>
         <h2>Lesson 1</h2>
-        <p>Discuss interface elements and user interaction. Introduce the picker view interface element.</p>
+        <p>Analyze the app startup process with an empty Xcode project.</p>
         <ul class="links small">
           <li class="document">
-            <h4><a href="/assets/pdfs/UnitConverter%20Lesson01.pdf">Lesson Plan</a></h4>
+            <h4><a href="/assets/pdfs/Journal%20Lesson01.pdf">Lesson Plan</a></h4>
           </li>
           <li class="sample-code">
-            <h4><a href="https://github.com/SwiftEducation/UnitConverter/archive/lesson01.zip">UnitConverter Lesson 1 Xcode Project</a></h4>
+            <h4><a href="https://github.com/SwiftEducation/Journal/archive/lesson01.zip">Journal Lesson 1 Xcode Project</a></h4>
           </li>
+<!--          <li class="presentation">
+            <h4><a href="https://raw.github.com/SwiftEducation/presentations/master/AppLaunch.key">App Launch Presentation</a></h4>
+          </li>
+-->
         </ul>
       </section>
       
       <section>
         <h2>Lesson 2</h2>
-        <p>Use the <code>UIPickerViewDataSource</code> protocol as a vehicle for explaining Swift protocols.</p>
+        <p>Facilitate adding a storyboard and default table view controller to the project.</p>
         <ul class="links small">
           <li class="document">
-            <h4><a href="/assets/pdfs/UnitConverter%20Lesson02.pdf">Lesson Plan</a></h4>
+            <h4><a href="/assets/pdfs/Journal%20Lesson02.pdf">Lesson Plan</a></h4>
           </li>
           <li class="sample-code">
-            <h4><a href="https://github.com/SwiftEducation/UnitConverter/archive/lesson02.zip">UnitConverter Lesson 2 Xcode Project</a></h4>
+            <h4><a href="https://github.com/SwiftEducation/Journal/archive/lesson02.zip">Journal Lesson 2 Xcode Project</a></h4>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Lesson 3</h2>
+        <p>Bind a custom controller class to the table controller, and teach students about delegates, data sources and protocols.</p>
+        <ul class="links small">
+          <li class="document">
+            <h4><a href="/assets/pdfs/Journal%20Lesson03.pdf">Lesson Plan</a></h4>
+          </li>
+          <li class="sample-code">
+            <h4><a href="https://github.com/SwiftEducation/Journal/archive/lesson03.zip">Journal Lesson 3 Xcode Project</a></h4>
           </li>
           <li class="presentation">
-            <h4><a href="https://raw.github.com/SwiftEducation/presentations/master/PickerViews.key">Picker Views Presentation</a></h4>
+            <h4><a href="https://raw.github.com/SwiftEducation/presentations/master/TableViewControllers.key">Table View Controllers Presentation</a></h4>
+          </li>
+          <li class="presentation">
+            <h4><a href="https://raw.github.com/SwiftEducation/presentations/master/DelegatesAndDelegation.key">Delegates and Delegation Presentation</a></h4>
           </li>
           <li class="presentation">
             <h4><a href="https://raw.github.com/SwiftEducation/presentations/master/Protocols.key">Protocols Presentation</a></h4>
@@ -87,127 +107,111 @@
       </section>
 
       <section>
-        <h2>Lesson 3</h2>
-        <p>Use the <code>UIPickerViewDelegate</code> protocol to explain delegates and delegation.</p>
-        <ul class="links small">
-          <li class="document">
-            <h4><a href="/assets/pdfs/UnitConverter%20Lesson03.pdf">Lesson Plan</a></h4>
-          </li>
-          <li class="sample-code">
-            <h4><a href="https://github.com/SwiftEducation/UnitConverter/archive/lesson03.zip">UnitConverter Lesson 3 Xcode Project</a></h4>
-          </li>
-          <li class="presentation">
-            <h4><a href="https://raw.github.com/SwiftEducation/presentations/master/DelegatesAndDelegation.key">Delegates and Delegation Presentation</a></h4>
-          </li>
-        </ul>
-      </section>
-
-      <section>
         <h2>Lesson 4</h2>
-        <p>Leverage a mutable array of values to lead a refactoring from loops to an introduction of <code>map</code>.</p>
+        <p>Demonstrate table cell reuse by adding sample data to the view. Lead students in refactoring Swift code toward best practices with <code>map</code> and closures.</p>
         <ul class="links small">
           <li class="document">
-            <h4><a href="/assets/pdfs/UnitConverter%20Lesson04.pdf">Lesson Plan</a></h4>
+            <h4><a href="/assets/pdfs/Journal%20Lesson04.pdf">Lesson Plan</a></h4>
           </li>
           <li class="sample-code">
-            <h4><a href="https://github.com/SwiftEducation/UnitConverter/archive/lesson04.zip">UnitConverter Lesson 4 Xcode Project</a></h4>
+            <h4><a href="https://github.com/SwiftEducation/Journal/archive/lesson04.zip">Journal Lesson 4 Xcode Project</a></h4>
           </li>
         </ul>
       </section>
 
       <section>
         <h2>Lesson 5</h2>
-        <p>Facilitate implementing a delegate method to update a controller outlet.</p>
+        <p>Facilitate students in implementing a model with method prototypes, properties and an initializer.</p>
         <ul class="links small">
           <li class="document">
-            <h4><a href="/assets/pdfs/UnitConverter%20Lesson05.pdf">Lesson Plan</a></h4>
+            <h4><a href="/assets/pdfs/Journal%20Lesson05.pdf">Lesson Plan</a></h4>
           </li>
           <li class="sample-code">
-            <h4><a href="https://github.com/SwiftEducation/UnitConverter/archive/lesson05.zip">UnitConverter Lesson 5 Xcode Project</a></h4>
+            <h4><a href="https://github.com/SwiftEducation/Journal/archive/lesson05.zip">Journal Lesson 5 Xcode Project</a></h4>
+          </li>
+          <li class="presentation">
+            <h4><a href="https://raw.github.com/SwiftEducation/presentations/master/Initialization.key">Initialization Presentation</a></h4>
           </li>
         </ul>
       </section>
 
       <section>
         <h2>Lesson 6</h2>
-        <p>Analyze controller code to determine what should be extracted into a model.</p>
+        <p>Lead students in composing a model with a data structure, and use the model with the table view datasource methods.</p>
         <ul class="links small">
           <li class="document">
-            <h4><a href="/assets/pdfs/UnitConverter%20Lesson06.pdf">Lesson Plan</a></h4>
+            <h4><a href="/assets/pdfs/Journal%20Lesson06.pdf">Lesson Plan</a></h4>
           </li>
           <li class="sample-code">
-            <h4><a href="https://github.com/SwiftEducation/UnitConverter/archive/lesson06.zip">UnitConverter Lesson 6 Xcode Project</a></h4>
-          </li>
-          <li class="presentation">
-            <h4><a href="https://raw.github.com/SwiftEducation/presentations/master/ModelViewController.key">Model-View-Controller Presentation</a></h4>
+            <h4><a href="https://github.com/SwiftEducation/Journal/archive/lesson06.zip">Journal Lesson 6 Xcode Project</a></h4>
           </li>
         </ul>
       </section>
 
       <section>
         <h2>Lesson 7</h2>
-        <p>Introduce the concept of a "view model," and demonstrate adding custom objects that serve the view.</p>
+        <p>Demonstrate how navigation controllers and table view controllers work together.</p>
         <ul class="links small">
           <li class="document">
-            <h4><a href="/assets/pdfs/UnitConverter%20Lesson07.pdf">Lesson Plan</a></h4>
+            <h4><a href="/assets/pdfs/Journal%20Lesson07.pdf">Lesson Plan</a></h4>
           </li>
           <li class="sample-code">
-            <h4><a href="https://github.com/SwiftEducation/UnitConverter/archive/lesson07.zip">UnitConverter Lesson 7 Xcode Project</a></h4>
+            <h4><a href="https://github.com/SwiftEducation/Journal/archive/lesson07.zip">Journal Lesson 7 Xcode Project</a></h4>
+          </li>
+          <li class="presentation">
+            <h4><a href="https://raw.github.com/SwiftEducation/presentations/master/NavigationControllers.key">Navigation Controllers Presentation</a></h4>
           </li>
         </ul>
       </section>
 
       <section>
         <h2>Lesson 8</h2>
-        <p>Lead a refactoring to re-integrate the view, view model, and controller.</p>
+        <p>Facilitate the construction of a user interface, and teach students how to use segues to pass data between view controllers.</p>
         <ul class="links small">
           <li class="document">
-            <h4><a href="/assets/pdfs/UnitConverter%20Lesson08.pdf">Lesson Plan</a></h4>
+            <h4><a href="/assets/pdfs/Journal%20Lesson08.pdf">Lesson Plan</a></h4>
           </li>
           <li class="sample-code">
-            <h4><a href="https://github.com/SwiftEducation/UnitConverter/archive/lesson08.zip">UnitConverter Lesson 8 Xcode Project</a></h4>
+            <h4><a href="https://github.com/SwiftEducation/Journal/archive/lesson08.zip">Journal Lesson 8 Xcode Project</a></h4>
           </li>
         </ul>
       </section>
 
       <section>
         <h2>Lesson 9</h2>
-        <p>Analyze app usability, and lead an implementation change to the interface for an improved initial state.</p>
+        <p>Challenge students with the addition of another view controller and segue.</p>
         <ul class="links small">
           <li class="document">
-            <h4><a href="/assets/pdfs/UnitConverter%20Lesson09.pdf">Lesson Plan</a></h4>
+            <h4><a href="/assets/pdfs/Journal%20Lesson09.pdf">Lesson Plan</a></h4>
           </li>
           <li class="sample-code">
-            <h4><a href="https://github.com/SwiftEducation/UnitConverter/archive/lesson09.zip">UnitConverter Lesson 9 Xcode Project</a></h4>
+            <h4><a href="https://github.com/SwiftEducation/Journal/archive/lesson09.zip">Journal Lesson 9 Xcode Project</a></h4>
           </li>
         </ul>
       </section>
 
       <section>
         <h2>Lesson 10</h2>
-        <p>Explain the <code>NSUserDefaults</code> API for storing and retrieving app data.</p>
+        <p>Explain how to dismiss modal segues with controller actions.</p>
         <ul class="links small">
           <li class="document">
-            <h4><a href="/assets/pdfs/UnitConverter%20Lesson10.pdf">Lesson Plan</a></h4>
+            <h4><a href="/assets/pdfs/Journal%20Lesson10.pdf">Lesson Plan</a></h4>
           </li>
           <li class="sample-code">
-            <h4><a href="https://github.com/SwiftEducation/UnitConverter/archive/lesson10.zip">UnitConverter Lesson 10 Xcode Project</a></h4>
-          </li>
-          <li class="presentation">
-            <h4><a href="https://raw.github.com/SwiftEducation/presentations/master/SavingUserPreferences.key">Saving User Preferences Presentation</a></h4>
+            <h4><a href="https://github.com/SwiftEducation/Journal/archive/lesson10.zip">Journal Lesson 10 Xcode Project</a></h4>
           </li>
         </ul>
       </section>
 
       <section>
         <h2>Lesson 11</h2>
-        <p>Demonstrate loading date with the <code>NSUserDefaults</code> API, and resolve a subtle bug to illustrate type casting and optional binding.</p>
+        <p>Challenge students to coordinate multple view controllers to add new objects to a shared data structure.</p>
         <ul class="links small">
           <li class="document">
-            <h4><a href="/assets/pdfs/UnitConverter%20Lesson11.pdf">Lesson Plan</a></h4>
+            <h4><a href="/assets/pdfs/Journal%20Lesson11.pdf">Lesson Plan</a></h4>
           </li>
           <li class="sample-code">
-            <h4><a href="https://github.com/SwiftEducation/UnitConverter/archive/lesson11.zip">UnitConverter Lesson 11 Xcode Project</a></h4>
+            <h4><a href="https://github.com/SwiftEducation/Journal/archive/lesson11.zip">Journal Lesson 11 Xcode Project</a></h4>
           </li>
         </ul>
       </section>
