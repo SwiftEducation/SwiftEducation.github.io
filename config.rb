@@ -70,3 +70,11 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+# Copy the README.md in the root of the develop branch
+# to the build directory, which is the root of the master branch.
+# This is so the README is visible when viewing the master branch on GitHub.
+after_build do |builder|
+  builder.source_paths << "#{File.dirname(__FILE__)}"
+  builder.copy_file("README.md", File.join(config[:build_dir], "README.md"))
+end
