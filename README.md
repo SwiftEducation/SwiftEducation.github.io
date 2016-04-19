@@ -16,10 +16,10 @@ This web site uses the Ruby [Middleman](https://middlemanapp.com/) gem for stati
 
 1. You should have Ruby 2.2.2+ and [Bundler](http://bundler.io/) installed (`gem install bundler`).
 2. Clone the repository: `git clone git@github.com:SwiftEducation/SwiftEducation.github.io.git`.
-3. Install the dependencies: `bundle install`.
-4. Check out the _develop_ branch (`git checkout develop`). The rule of thumb is "always be working in _develop_ or a branch off of _develop_."
+3. Check out the _develop_ branch (`git checkout develop`). The rule of thumb is "always be working in _develop_ or a branch off of _develop_."
+4. Install the dependencies: `bundle install`.
 5. Note that the _develop_ branch _.gitignore_ is set to ignore the _build_ directory. This is correct.
-6. From within the repository, clone the repository again, placing it within a _build_ directory. Yes, really: `git clone git@github.com:SwiftEducation/SwiftEducation.github.io.git build`. The rule of thumb here is "_build_ should always be on the _master_ branch."
+6. From within the repository root, clone the repository again, placing it within a _build_ directory. Yes, really: `git clone git@github.com:SwiftEducation/SwiftEducation.github.io.git build`. The rule of thumb here is "_build_ should always be on the _master_ branch."
 
 What you have done here is created a local repository for the web site, where you will be working in the _develop_ branch. Once you have finished your changes, you will run `middleman build`. This will translate the code in _source_ into static files that reside in _build_. The _build_ directory is bound to the [master](https://github.com/SwiftEducation/SwiftEducation.github.io/tree/master) branch. After running `middleman build` to generate a new static site in the _build_ directory, you should `cd` into the _build_ directory, `commit` and `push`. This will push the new static site to the [master](https://github.com/SwiftEducation/SwiftEducation.github.io/tree/master) branch on the remote (GitHub), which will then be visible at [http://swifteducation.github.io](http://swifteducation.github.io).
 
