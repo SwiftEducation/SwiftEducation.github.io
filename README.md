@@ -1,3 +1,7 @@
+## Deprecation Warning
+
+The Swift Education materials are out of date, and are no longer maintained.
+
 # Swift Education Web Site
 
 This is the source code for generating the static content for the [Swift Education web site](http://swifteducation.github.io) hosted via GitHub Pages.
